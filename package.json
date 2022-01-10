@@ -2,7 +2,7 @@
   "name": "gerenciador-tarefas-next",
   "private": true,
    "engines": {
-    "node": "16.1.3"
+    "node": "16.13.1"
   },
   "scripts": {
     "dev": "next dev",
