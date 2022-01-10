@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+## Projeto de FrontEnd Engineering
+NextJs, React, Typescript, JWT, MongoDB
+## O Projeto
+O projeto consiste em um portal, onde é possível gerenciar suas tarefas por data, podendo adicionar, editar, excluir e listar, além de poder fazer um filtro por data dessas tarefas.
 ## Getting Started
 
 First, run the development server:
