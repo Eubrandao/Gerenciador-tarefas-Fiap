@@ -61,8 +61,8 @@ export const Login : NextPage<LoginProps> = ({setToken}) => {
     const doLogin = async () => {
         try {
             if (!login || !password) {
-//                 setError(errorAlert());
-                setError('Ops, você não preencheu os dados!')
+                 setError(errorAlert());
+//                 setError('Ops, você não preencheu os dados!')
                 return;
             }
 
@@ -84,7 +84,8 @@ export const Login : NextPage<LoginProps> = ({setToken}) => {
         } catch (e : any) {
             if(e?.response?.data?.error){
                 console.log(e?.response);
-                setError('Usuário ou senha incorretos');
+//                 setError('Usuário ou senha incorretos');
+                  setError(noUserPass());
                 return;
             }
             console.log(e);
